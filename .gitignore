@@ -1,0 +1,23 @@
+# File otentikasi
+auth.txt
+
+# File data hasil scraping
+scraped_data.json
+
+# File Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+
+# File konfigurasi IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
