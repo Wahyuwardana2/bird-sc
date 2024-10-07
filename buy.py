@@ -4,9 +4,9 @@ import time
 # Fungsi untuk mendapatkan URL berdasarkan tipe
 def get_check_price_url(worm_type):
     if worm_type == "alltype":
-        return "https://worm.birds.dog/markets?page=1&perPage=2&orderBy=price:lowest&is_owned=false"
+        return "https://worm.birds.dog/markets?page=1&perPage=1&orderBy=price:lowest&is_owned=false"
     else:
-        return f"https://worm.birds.dog/markets?page=1&perPage=20&orderBy=price:lowest&type={worm_type}&is_owned=false"
+        return f"https://worm.birds.dog/markets?page=1&perPage=1&orderBy=price:lowest&type={worm_type}&is_owned=false"
 
 # Fungsi untuk membaca Authorization dari file auth.txt
 def read_auth_token():
